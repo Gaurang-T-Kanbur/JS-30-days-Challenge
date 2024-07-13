@@ -5,7 +5,7 @@ console.log(a);
 console.log(typeof(a));
 
 //Task 2: Declare Variable using let to a string
-let str = "Jai Shri Ram";
+let str = "AAA";
 console.log(str);
 console.log(typeof(str));
 
@@ -39,7 +39,7 @@ let arr = [{variable: a, type: typeof(a)},
 ]
   console.table(arr);  
 
-  //Feature Request #1
+  //Feature Request #2
   let age = 18;
   console.log("Initial value:",age);
   age += 3;
@@ -53,7 +53,6 @@ let arr = [{variable: a, type: typeof(a)},
   } catch (error) {
     console.error("Reassigning constant:",gender);
   }
-
   arr = [{variable: a, type: typeof(a)},
     {variable: str, type: typeof(str)},
     {variable: bool, type: typeof(bool)},
