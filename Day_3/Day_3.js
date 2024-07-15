@@ -122,4 +122,12 @@ let num = 99;
 let result = (num%2==0)?`${num} is even`:`${num} is odd`;
 console.log(result)
 
-//Task_7: Ternary for even or odd
+//Task_7:Leap Year
+
+let year = 1900;
+
+if(year%4==0&&year%100!=0 || year%4==0 && year%400 == 0){
+    console.log(`${year} is a leap year`);
+}else{
+    console.log(`${year} is not a leap year`);
+}
