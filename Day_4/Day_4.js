@@ -1,9 +1,9 @@
 //Task_1: Loop to print from 1 to 10
 
 let n = 10;
-// for(let i=1;i<=n;i++){
-//     console.log(i);
-// }
+for(let i=1;i<=n;i++){
+    console.log(i);
+}
 
 //Task_2: Table of 5
 for(let i=0;i<=n;i++){
@@ -52,3 +52,26 @@ for(let i=1;i<=5;i++){
     console.log(pattern);  //check the number of rows and set outer limit to it and then check number of col per row 
     //then check elements to input
 }
+
+//Task_8: continue
+let cont = ""
+for(let i=1;i<=10;i++){
+   
+    if(i==5){
+        continue;
+    }
+    cont+=i+" ";
+}
+console.log(cont);
+
+//Task_9: break
+
+let brr = ""
+for(let i=1;i<=10;i++){
+   
+    if(i==7){
+        break;
+    }
+    brr+=i+" ";
+}
+console.log(brr);
