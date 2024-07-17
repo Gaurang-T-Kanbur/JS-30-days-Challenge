@@ -71,3 +71,19 @@ function Hello(i){
     console.log ("Hello "+ i);
 }
 sayHello(Hello, 5);//Here reference is passed and it is executed '()' in the higher order function above
+
+//Task_9:Higher Order Function for multiple functions
+function combine(func1, func2,value) {
+    return func2(func1(value));
+}
+
+function add(x){
+
+        return x+9;
+
+}
+
+function mul(x){
+    return x*9;
+}
+console.log("Combined Function gives:",combine(add,mul,9));
