@@ -1,4 +1,4 @@
-# JavaScript 30 Days Challenge
+
 
 ## Day 2
 
